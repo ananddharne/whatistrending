@@ -17,18 +17,15 @@ module.exports = {
       },
       {
         test: /\.css$/,
+        use: ['style-loader', 'css-loader', 'sass-loader']
+      },
+      {
+        test: /\.(png|jpg|gif)$/,
         use: [
           {
-            loader: "style-loader"
-          },
-          {
-            loader: "css-loader",
+            loader: 'url-loader',
             options: {
-              modules: true,
-              importLoaders: 1,
-              localIdentName: "[name]_[local]_[hash:base64]",
-              sourceMap: true,
-              minimize: true
+              limit: 5000
             }
           }
         ]
