@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #000000;
+
+}
+
+.navLinks {
+    color: #ccc;
+}
+.navLinks:hover {
+    cursor: pointer
+}
+    
+@media only screen and (min-width: 500px) {
+    .container {
+        flex-direction: row;
+        align-items: flex-end;
+        height: 99px;
+    }
+}
