@@ -21,16 +21,16 @@ const App = () => {
         <div className = "">
         <nav className="container">
           <div className="1">
-          <a onClick = { () => setRender('twitter')} className="navLinks">Twitter</a>
+          <button onClick = { () => setRender('twitter')} className="navLinks">Twitter</button>
           </div>
           <div className="2">
-          <a onClick = { () => setRender('reddit')} className="navLinks">Reddit</a>
+          <button onClick = { () => setRender('reddit')} className="navLinks">Reddit</button>
           </div>
           <div className="3">
-          <a onClick = { () => setRender('news')} className="navLinks">News</a>
+          <button onClick = { () => setRender('news')} className="navLinks">News</button>
           </div>
           <div className="4">
-          <a onClick = { () => setRender('github')} className="navLinks">Github</a>
+          <button onClick = { () => setRender('github')} className="navLinks">Github</button>
           </div>
         </nav>
         {renderComponent()}

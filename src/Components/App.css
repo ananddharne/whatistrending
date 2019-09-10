@@ -1,20 +1,31 @@
 body {
     margin: 0;
+    background-color: rgb(34, 34, 34);
 }
 .container {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    background-color: #000000;
-
+    /* background-color: rgb(0, 0, 0); */
+    /* background-image: linear-gradient(90deg, rgb(192, 45, 40), rgb(230, 98, 37)); */
+    position: relative;
+    background: linear-gradient(90deg,#c02d28,#e66225);
+    background: rgb(0, 0, 0)
 }
 
 .navLinks {
-    color: #ccc;
+    color: rgb(170, 170, 170);
+    font-size: 20px;
+    background: none!important;
+    border: none;
+    padding: 0!important;
+    font-family: arial, sans-serif;
+    cursor: pointer;
 }
 .navLinks:hover {
-    cursor: pointer
+    cursor: pointer;
+    color:#eb8151
 }
     
 @media only screen and (min-width: 500px) {

@@ -45,6 +45,7 @@
     "@huchenme/github-trending": "^2.1.0",
     "react": "^16.7.0-alpha.0",
     "react-dom": "^16.7.0-alpha.0",
-    "react-dropdown-select": "^3.5.0"
+    "react-dropdown-select": "^3.5.0",
+    "react-onclickoutside": "^6.9.0"
   }
 }
